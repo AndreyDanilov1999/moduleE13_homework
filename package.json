@@ -1,0 +1,23 @@
+{
+  "name": "module-e13-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx eslint src/index.js",
+    "start:dev": "webpack --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "build": "webpack",
+    "prepare": "husky install"
+  },
+  "author": "Adnrey",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "html-webpack-plugin": "^5.5.3",
+    "husky": "^8.0.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
